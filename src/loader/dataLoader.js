@@ -1,6 +1,6 @@
 export async function dataLoader(q) {
     try {
-      const res = await fetch("http://localhost:4000/jobs");
+      const res = await fetch("http://localhost:3000/jobs");
       const jobs = await res.json();
       if (q) {
         let filtedJobs = jobs.filter(
