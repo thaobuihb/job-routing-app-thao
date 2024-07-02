@@ -2,7 +2,6 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import LoginForm from "../components/LoginForm";
 import Stack from "@mui/material/Stack";
-// sx={{ p: 4, alignItems: "center" }}
 const style = {
   position: "absolute",
   top: "50%",

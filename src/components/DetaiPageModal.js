@@ -34,7 +34,6 @@ function DetailPageModal() {
     return <SpinningIcon />;
   }
 
-  // const handleOpen = () => setOpen(true);
   const handleClose = () => {
     setOpen(false);
     navigate(-1);

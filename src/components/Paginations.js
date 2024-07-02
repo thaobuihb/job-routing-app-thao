@@ -20,18 +20,6 @@ export default function BasicPagination({ pages }) {
           padding: "20px",
           justifyContent: "center",
           alignItems: "center",
-          // "& .Mui-selected": {
-          //   backgroundColor: "#d74742",
-          //   "&:hover": {
-          //     backgroundColor: "#d95f5b",
-          //   },
-          // },
-
-          //Work well on desktop but not mobile:
-          // position: "absolute",
-          // left: "50%",
-          //   top: "50%",
-          //   transform: "translate(-50%, -50%)",
         }}
       />
     </Stack>

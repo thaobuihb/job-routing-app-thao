@@ -27,7 +27,7 @@ function HomePage() {
             <JobCard job={job} />
           </Grid>
         ))}
-      </Grid>
+      </Grid> 
       <Paginations pages={Math.trunc(jobs.length / 6)} />
     </Container>
   );
